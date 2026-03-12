@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="100%" height="200">
+  <defs>
+    <linearGradient id="rainGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#58a6ff; stop-opacity:0" />
+      <stop offset="100%" style="stop-color:#58a6ff; stop-opacity:0.8" />
+    </linearGradient>
+    
+    <g id="drop">
+      <line x1="0" y1="0" x2="-5" y2="25" stroke="url(#rainGrad)" stroke-width="2" stroke-linecap="round" />
+    </g>
+  </defs>
+
+  <use href="#drop" x="100" y="-50">
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="-40 250" dur="0.8s" repeatCount="indefinite" />
+  </use>
+  
+  <use href="#drop" x="250" y="-20">
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="-40 220" dur="0.6s" repeatCount="indefinite" />
+  </use>
+  
+  <use href="#drop" x="400" y="-40">
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="-40 240" dur="0.9s" repeatCount="indefinite" />
+  </use>
+  
+  <use href="#drop" x="550" y="-10">
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="-40 210" dur="0.7s" repeatCount="indefinite" />
+  </use>
+  
+  <use href="#drop" x="700" y="-60">
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="-40 260" dur="0.85s" repeatCount="indefinite" />
+  </use>
+
+  <use href="#drop" x="50" y="-30">
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="-40 230" dur="0.65s" repeatCount="indefinite" />
+  </use>
+</svg>
